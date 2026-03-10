@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Maycol Rodriguez | Software Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Inter',sans-serif;
+background:#f8fafc;
+color:#1e293b;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:0 20px;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 0;
+}
+
+nav h2{
+font-weight:700;
+}
+
+nav a{
+text-decoration:none;
+color:#475569;
+margin-left:20px;
+font-size:14px;
+}
+
+nav a:hover{
+color:#2563eb;
+}
+
+/* HERO */
+
+.hero{
+padding:120px 0;
+text-align:center;
+}
+
+.hero h1{
+font-size:52px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+color:#64748b;
+margin-bottom:30px;
+}
+
+.btn{
+background:#2563eb;
+color:white;
+padding:14px 28px;
+border-radius:8px;
+text-decoration:none;
+font-weight:600;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 0;
+}
+
+h2{
+font-size:32px;
+margin-bottom:25px;
+}
+
+/* SERVICES */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#e2e8f0;
+padding:8px 14px;
+border-radius:20px;
+font-size:14px;
+}
+
+/* CONTACT */
+
+.contact{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+max-width:500px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:40px 0;
+color:#64748b;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<nav>
+<h2>MR</h2>
+
+<div>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<div class="hero">
+
+<h1>Maycol Rodriguez</h1>
+<p>Software Developer • Backend Engineer • Automation Specialist</p>
+
+<a class="btn" href="#contact">Contact Me</a>
+
+</div>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Professional software developer specializing in backend systems, automation
+solutions, and scalable web applications. I build APIs, enterprise integrations,
+and modern software platforms.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2>Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Web Application Development</h3>
+<p>Custom web platforms using modern frameworks and scalable architecture.</p>
+</div>
+
+<div class="card">
+<h3>API Development</h3>
+<p>RESTful APIs and integrations for SaaS and enterprise systems.</p>
+</div>
+
+<div class="card">
+<h3>Automation</h3>
+<p>Business automation using RPA and backend integrations.</p>
+</div>
+
+<div class="card">
+<h3>Backend Systems</h3>
+<p>Robust backend platforms designed for performance and reliability.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills">
+
+<span class="skill">.NET</span>
+<span class="skill">ASP.NET Core</span>
+<span class="skill">Laravel</span>
+<span class="skill">PHP</span>
+<span class="skill">Java</span>
+<span class="skill">Python</span>
+
+<span class="skill">Vue.js</span>
+<span class="skill">JavaScript</span>
+<span class="skill">jQuery</span>
+
+<span class="skill">SQL Server</span>
+<span class="skill">MySQL</span>
+<span class="skill">SQLite</span>
+
+<span class="skill">RPA</span>
+<span class="skill">AWS</span>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<div class="contact">
+
+<p><strong>Name:</strong> Maycol Rodriguez</p>
+<p><strong>Email:</strong> your@email.com</p>
+<p><strong>Phone:</strong> +506 XXXXXXXX</p>
+<p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Maycol Rodriguez
+
+</footer>
+
+</div>
+
+</body>
+</html>
